@@ -96,6 +96,86 @@ const products = [
     categories: ["shoe"],
     price: 135000,
   },
+  {
+    id: 12,
+    image:
+      "https://static-01.shop.com.mm/p/bb133fa72b1ff8b11f88cf4e7ae8b157.png",
+    title: "Hipper - Men Slipper HS-8324",
+    categories: ["slipper"],
+    price: 9000,
+  },
+  {
+    id: 13,
+    image:
+      "https://static-01.shop.com.mm/p/10ed1770276e7b0bb6862ca4f44e4e35.png",
+    title: "Home Slipper Shoe",
+    categories: ["slipper"],
+    price: 10900,
+  },
+  {
+    id: 14,
+    image:
+      "https://static-01.shop.com.mm/p/ab1e54038686b6d7e252210b4f8be868.jpg",
+    title: "Men Slipper",
+    categories: ["slipper"],
+    price: 5450,
+  },
+  {
+    id: 15,
+    image:
+      "https://static-01.shop.com.mm/p/73266a4f5dda6087a057f075295a537c.jpg",
+    title: "FASHION X FACTORY SENSELEAD FEMALE CASUAL LONG PANTS",
+    categories: ["pant"],
+    price: 21000,
+  },
+  {
+    id: 16,
+    image:
+      "https://static-01.shop.com.mm/p/c3df5cedb108d5a68ab8f7bc58aa23a8.jpg",
+    title: "Sport Sweat Pant",
+    categories: ["pant"],
+    price: 12000,
+  },
+  {
+    id: 17,
+    image:
+      "https://static-01.shop.com.mm/p/33dd9d59a3a73838b4865d52f22e1ce5.jpg",
+    title: "Semi Casual Pants",
+    categories: ["pant"],
+    price: 10500,
+  },
+  {
+    id: 18,
+    image:
+      "https://static-01.shop.com.mm/p/3773a7d87d98e7622d179cfb60e30b8c.jpg",
+    title: "Long Pant, Joggers, cargo jogger",
+    categories: ["pant"],
+    price: 18500,
+  },
+  {
+    id: 19,
+    image:
+      "https://mm-live-21.slatic.net/kf/Sc11ed190f6e1408893604ea5c52f7893g.jpg",
+    title: "Trandy Ripped jeans hooded jackets",
+    categories: ["coat"],
+    price: 40000,
+  },
+  {
+    id: 20,
+    image:
+      "https://mm-live-21.slatic.net/kf/Sc71f60ab7348493781919af461efd9ffR.jpg",
+    title: "Long cotton coat Jacket",
+    categories: ["coat"],
+    price: 22000,
+  },
+  {
+    id: 21,
+    image:
+      "https://mm-live-21.slatic.net/kf/Sc71f60ab7348493781919af461efd9ffR.jpg",
+    title: "Long cotton coat Jacket",
+    categories: ["coat"],
+    price: 22000,
+  },
 ];
 
 module.exports = products;
