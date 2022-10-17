@@ -168,14 +168,6 @@ const products = [
     categories: ["coat"],
     price: 22000,
   },
-  {
-    id: 21,
-    image:
-      "https://mm-live-21.slatic.net/kf/Sc71f60ab7348493781919af461efd9ffR.jpg",
-    title: "Long cotton coat Jacket",
-    categories: ["coat"],
-    price: 22000,
-  },
 ];
 
 module.exports = products;
