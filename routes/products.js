@@ -1,4 +1,5 @@
 const router = require("express").Router();
+const { request } = require("express");
 const products = require("../data");
 
 //Getting all the products by category or search criteria.
@@ -44,7 +45,7 @@ router.get("/", (req, res) => {
   res.status(200).json(filteredProducts);
 });
 
-//getting the category names of the products for showing in the search results
+//getting the category names filtered with user search criteria  for showing in the search results
 router.get("/category_names", (req, res) => {
   let { searchQuery } = req.query;
 
@@ -61,6 +62,17 @@ router.get("/category_names", (req, res) => {
     });
   });
 
+  res.status(200).json(categoryNames);
+});
+
+//getting the category names for the category list
+router.get("/category_names_list", (req, res) => {
+  const categoryNames = [];
+  products.forEach((product) => {
+    !categoryNames.includes(product.categories[0]) &&
+      categoryNames.push(product.categories[0]);
+  });
+  console.log(categoryNames);
   res.status(200).json(categoryNames);
 });
 module.exports = router;
