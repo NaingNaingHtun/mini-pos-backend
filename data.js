@@ -168,6 +168,134 @@ const products = [
     categories: ["coat"],
     price: 22000,
   },
+  {
+    id: 21,
+    image:
+      "https://static-01.shop.com.mm/p/3adb9991909b30059e90eba034477a96.jpg",
+    title: "Nike Logo Imported from Thailand (White Color) Quality B",
+    categories: ["hat"],
+    price: 14900,
+  },
+  {
+    id: 22,
+    image:
+      "https://static-01.shop.com.mm/p/62da3ed6da203c6948114a4dd66ac860.jpg",
+    title: "Free Style Hat",
+    categories: ["hat"],
+    price: 21300,
+  },
+  {
+    id: 23,
+    image:
+      "https://static-01.shop.com.mm/p/a33c23e5896ee5383934f2b9c0cfd7ce.jpg",
+    title: "Giordano Cotton Cap",
+    categories: ["hat"],
+    price: 17900,
+  },
+  {
+    id: 24,
+    image:
+      "https://static-01.shop.com.mm/p/5df8e510cb01115c030928700d6bc99a.jpg",
+    title: "Leather Pattern Baseball Cap (Pre Order)",
+    categories: ["hat"],
+    price: 19350,
+  },
+  {
+    id: 25,
+    image:
+      "https://mm-live-21.slatic.net/kf/S58632f529a124d3e8a2fbb03e75f4b57q.jpg",
+    title: "sport outdoor shoes",
+    categories: ["shoe"],
+    price: 32340,
+  },
+  {
+    id: 26,
+    image:
+      "https://static-01.shop.com.mm/p/17548bb01669cb5561ee27b45a629bca.jpg",
+    title: "Timberland BRADSTREETULTEK+ Oxford - Dark Brown",
+    categories: ["shoe"],
+    price: 279300,
+  },
+  {
+    id: 27,
+    image:
+      "https://static-01.shop.com.mm/p/76f47d50eead263609fc10e2242efd95.jpg",
+    title: "Skechers - Men - Lifestyle - Elite Flex - Westerfield - 52868",
+    categories: ["shoe"],
+    price: 112000,
+  },
+  {
+    id: 28,
+    image:
+      "https://static-01.shop.com.mm/p/9499e923104096cd1aba6bff98471f0c.jpg",
+    title: "Timberland MADBURY SIDEZIPWP - Black",
+    categories: ["shoe"],
+    price: 318500,
+  },
+  {
+    id: 29,
+    image:
+      "https://static-01.shop.com.mm/p/bf6efec74f64c7ccb693db18c9ef6069.jpg",
+    title: "OAKLEY Apparition",
+    categories: ["glasses"],
+    price: 370000,
+  },
+  {
+    id: 30,
+    image:
+      "https://static-01.shop.com.mm/p/44d5cbb14674e66833565cecc8b878e3.jpg",
+    title: "Sunglasses",
+    categories: ["glasses"],
+    price: 35000,
+  },
+  {
+    id: 31,
+    image:
+      "https://static-01.shop.com.mm/p/4a0511b5d1bace3e4141815285f92b6a.jpg",
+    title: "Cool Black Sunglasses",
+    categories: ["glasses"],
+    price: 10000,
+  },
+  {
+    id: 32,
+    image:
+      "https://static-01.shop.com.mm/p/1a73d21e5234148b7011201dd8a1dd48.jpg",
+    title: "OAKLEY UV-400/polarized",
+    categories: ["glasses"],
+    price: 40000,
+  },
+  {
+    id: 33,
+    image:
+      "https://static-01.shop.com.mm/original/3cefb75950872bfaf395f9137dc5b875.jpg",
+    title: "ALT 18X1 SHIRTS GREEN",
+    categories: ["shirt"],
+    price: 4900,
+  },
+  {
+    id: 34,
+    image:
+      "https://static-01.shop.com.mm/p/0c208801565bc800476c6a415aba4e44.jpg",
+    title: "Boy Shirt",
+    categories: ["shirt"],
+    price: 8000,
+  },
+  {
+    id: 35,
+    image:
+      "https://static-01.shop.com.mm/p/dbef0e4221cff839a349348691becaac.jpg",
+    title: "Dice Formal Men Shirt long wear Fashion",
+    categories: ["shirt"],
+    price: 13800,
+  },
+  {
+    id: 36,
+    image:
+      "https://static-01.shop.com.mm/p/151735058fa1a4329d5b4a88ba0d12e2.jpg",
+    title: "Bossini Men Round Neck>0107020>80",
+    categories: ["shirt"],
+    price: 31500,
+  },
 ];
 
 module.exports = products;
