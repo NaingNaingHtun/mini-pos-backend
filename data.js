@@ -171,10 +171,10 @@ const products = [
   {
     id: 21,
     image:
-      "https://static-01.shop.com.mm/p/3adb9991909b30059e90eba034477a96.jpg",
-    title: "Nike Logo Imported from Thailand (White Color) Quality B",
+      "https://static-01.shop.com.mm/p/4fbdadb83865fa649421a555fb63dc9a.jpg",
+    title: "Plain Style Hat",
     categories: ["hat"],
-    price: 14900,
+    price: 20200,
   },
   {
     id: 22,
